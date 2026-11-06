@@ -1,3 +1,5 @@
+allowBuilds:
+  esbuild: false
 # Keep host-native binaries for builds and Linux ARM64 binaries for Lambda.
 supportedArchitectures:
   os:

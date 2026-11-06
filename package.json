@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "NODE_OPTIONS=--no-deprecation next dev --hostname 0.0.0.0",
+    "dev": "NODE_OPTIONS=--no-deprecation next dev --port ${PORT:-3000} --hostname 0.0.0.0",
     "build": "NODE_OPTIONS=--no-deprecation payload build",
     "start": "NODE_OPTIONS=--no-deprecation next start",
     "format": "oxfmt",
